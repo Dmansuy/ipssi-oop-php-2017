@@ -10,19 +10,19 @@ Projet en PHP Objet réalisé avec les frameworks Zend et Symfony
 
 base de donnée : demo.sql
 
-Afficher la liste des meetings finis et à venir :  
+- Afficher la liste des meetings finis et à venir :  
 http://localhost/ipssi-oop-php-2017/meeting
 
-Afficher la liste des meetings à venir :  
+- Afficher la liste des meetings à venir :  
 http://localhost/ipssi-oop-php-2017/commingMeeting
 
-S'inscrire à un meeting :  
+- S'inscrire à un meeting :  
 http://localhost/ipssi-oop-php-2017/subscribe
 
-Ajouter un meeting :  
+- Ajouter un meeting :  
 http://localhost/ipssi-oop-php-2017/add-meeting
 
-Supprimer un meeting :  
+- Supprimer un meeting :  
 http://localhost/ipssi-oop-php-2017/delete
 
 
