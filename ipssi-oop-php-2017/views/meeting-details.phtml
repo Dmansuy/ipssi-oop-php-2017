@@ -1,0 +1,41 @@
+<?php /* @var $meeting \Conferences\Entity\Meeting */ ?>
+<table border=1 color=grey>
+<tr><h1>Meeting details :</h1></tr>
+<th>Meeting : </th>
+<tr>
+	<td><h4>Title</h4>
+		<?= $meeting->getTitle() ?>
+	</td>
+	<td><h4>Description</h4>
+		<?= $meeting->getDescription() ?>
+	</td>
+	<td><h4>Start date</h4>
+		<?= $meeting->getStartDateMeeting()->format('d-m-Y') ?>
+	</td>
+	<td><h4 border=1 color=black>End date</h4>
+		<?= $meeting->getEndDateMeeting()->format('d-m-Y') ?>
+	</td>
+</tr>
+<th>Organisateurs : </th>
+<tr>
+	<td>
+		<?php
+		while (!is_null($organiser))
+		{
+			$organisers->getUserName();
+		}
+		?>
+	</td>
+</tr>
+<th>Participants : </th>
+<tr>
+	<td>
+		<?php
+		while (!is_null($organiser))
+		{
+			$attendees->getUserName();
+		}
+		?>
+	</td>
+</tr>
+</table>

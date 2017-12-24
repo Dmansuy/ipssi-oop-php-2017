@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<h2> Add a meeting </h2>
+	<form action="Conferences/Repository/MeetingRepository" method="GET">
+		<table>
+			<tr><p>You're id : </p>
+				<input type="text" name="user_id" size="20" placeholder="user id">						
+			</tr><br><br>
+
+			<tr><p>Meeting's title : </p>
+				<input type="text" name="title" size="30" placeholder="title">						
+			</tr><br><br>
+
+			<tr><p>Meeting's description : </p>
+				<input type="text" name="description" size="30" placeholder="description">						
+			</tr><br><br>
+
+			<tr><p>Meeting's start date : </p>
+				<input type="date" name="startDate" size="30" placeholder="startDate">						
+			</tr><br><br>
+
+			<tr><p>Meeting's end date : </p>
+				<input type="date" name="endDate" size="30" placeholder="endDate">						
+			</tr><br><br>
+
+			<tr><p>Community id </p>
+				<input name="community_id" size="30" placeholder="community_id">
+			</tr><br><br>
+
+			<tr><p>Add Organisers</p>
+				<input name="user_id" size="30" placeholder="user_id">
+			</tr><br><br>
+
+			<tr><p>Add Attendees</p>
+				<input name="user_id" size="30" placeholder="user_id">
+			</tr>
+		</table><br>
+
+			<input type ="submit" value="Ajouter">
+			<input type ="reset" value="Annuler">
+	</form>
+</html> 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<h2> Subscription </h2>
+	<form action="/SubscribeRepository.php" method="GET">
+		<table>
+
+			<tr><p>You're id : </p>
+				<input type="text" name="user_id" size="20" placeholder="user id">						
+			</tr><br><br>
+
+			<tr><p>You are : </p>
+				<input type= "radio" name="role" value="a"> Attendee
+				<input type= "radio" name="role" value="o"> Organiser
+			</tr><br><br>
+
+			<tr><p>For the meeting number : </p>
+				<input name="meeting_id" size="20" placeholder="meeting id">
+			</tr> 
+		</table><br>
+
+			<input type ="submit" value="Inscription">
+			<input type ="reset" value="Annuler">
+	</form>
+</html> 
